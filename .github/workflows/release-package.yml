@@ -1,4 +1,4 @@
-name: Node.js Package
+name: NPM publish
 
 on:
   release:
@@ -27,9 +27,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm run build
-      - run: npm publish
+          registry-url: "https://registry.npmjs.org"
+      - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
