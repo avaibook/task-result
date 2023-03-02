@@ -1,6 +1,6 @@
 {
   "name": "@avaibook/task-result",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "A task result type inspired by Typescript Either filosofy",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
