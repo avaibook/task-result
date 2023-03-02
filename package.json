@@ -1,5 +1,5 @@
 {
-  "name": "@avaibook/ts-result",
+  "name": "@avaibook/task-result",
   "version": "0.2.2",
   "description": "A task result type inspired by Typescript Either filosofy",
   "main": "dist/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avaibook/ts-result.git"
+    "url": "git+https://github.com/avaibook/task-result.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avaibook/ts-result/issues"
+    "url": "https://github.com/avaibook/task-result/issues"
   },
-  "homepage": "https://github.com/avaibook/ts-result#readme",
+  "homepage": "https://github.com/avaibook/task-result#readme",
   "dependencies": {
     "typescript": "^4.9.4"
   }
